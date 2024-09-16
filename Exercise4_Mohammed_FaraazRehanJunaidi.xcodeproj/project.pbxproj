@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E872F3E92C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E872F3E82C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidiApp.swift */; };
+		E872F3EB2C94E5E100A52BFA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E872F3EA2C94E5E100A52BFA /* ContentView.swift */; };
+		E872F3ED2C94E5E300A52BFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E872F3EC2C94E5E300A52BFA /* Assets.xcassets */; };
+		E872F3F02C94E5E300A52BFA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E872F3EF2C94E5E300A52BFA /* Preview Assets.xcassets */; };
+		E872F3F72C94E6FC00A52BFA /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E872F3F62C94E6FC00A52BFA /* GameView.swift */; };
+		E872F3F92C94E70900A52BFA /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E872F3F82C94E70900A52BFA /* ScoreView.swift */; };
+		E872F3FB2C96375C00A52BFA /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E872F3FA2C96375C00A52BFA /* SplashScreenView.swift */; };
+		E872F3FD2C963F0F00A52BFA /* hod.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E872F3FC2C963F0F00A52BFA /* hod.mp3 */; };
+		E872F4002C96428400A52BFA /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = E872F3FF2C96428400A52BFA /* Lottie */; };
+		E872F4042C97505000A52BFA /* fightSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E872F4032C97505000A52BFA /* fightSound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E872F3E52C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Exercise4_Mohammed_FaraazRehanJunaidi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E872F3E82C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise4_Mohammed_FaraazRehanJunaidiApp.swift; sourceTree = "<group>"; };
+		E872F3EA2C94E5E100A52BFA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E872F3EC2C94E5E300A52BFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E872F3EF2C94E5E300A52BFA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E872F3F62C94E6FC00A52BFA /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		E872F3F82C94E70900A52BFA /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		E872F3FA2C96375C00A52BFA /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		E872F3FC2C963F0F00A52BFA /* hod.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hod.mp3; sourceTree = "<group>"; };
+		E872F4032C97505000A52BFA /* fightSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fightSound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E872F3E22C94E5E100A52BFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E872F4002C96428400A52BFA /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E872F3DC2C94E5E100A52BFA = {
+			isa = PBXGroup;
+			children = (
+				E872F3E72C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidi */,
+				E872F3E62C94E5E100A52BFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E872F3E62C94E5E100A52BFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E872F3E52C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E872F3E72C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidi */ = {
+			isa = PBXGroup;
+			children = (
+				E872F3E82C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidiApp.swift */,
+				E872F3F82C94E70900A52BFA /* ScoreView.swift */,
+				E872F3F62C94E6FC00A52BFA /* GameView.swift */,
+				E872F3FC2C963F0F00A52BFA /* hod.mp3 */,
+				E872F4032C97505000A52BFA /* fightSound.mp3 */,
+				E872F3EA2C94E5E100A52BFA /* ContentView.swift */,
+				E872F3EC2C94E5E300A52BFA /* Assets.xcassets */,
+				E872F3EE2C94E5E300A52BFA /* Preview Content */,
+				E872F3FA2C96375C00A52BFA /* SplashScreenView.swift */,
+			);
+			path = Exercise4_Mohammed_FaraazRehanJunaidi;
+			sourceTree = "<group>";
+		};
+		E872F3EE2C94E5E300A52BFA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E872F3EF2C94E5E300A52BFA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E872F3E42C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E872F3F32C94E5E300A52BFA /* Build configuration list for PBXNativeTarget "Exercise4_Mohammed_FaraazRehanJunaidi" */;
+			buildPhases = (
+				E872F3E12C94E5E100A52BFA /* Sources */,
+				E872F3E22C94E5E100A52BFA /* Frameworks */,
+				E872F3E32C94E5E100A52BFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Exercise4_Mohammed_FaraazRehanJunaidi;
+			packageProductDependencies = (
+				E872F3FF2C96428400A52BFA /* Lottie */,
+			);
+			productName = Exercise4_Mohammed_FaraazRehanJunaidi;
+			productReference = E872F3E52C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E872F3DD2C94E5E100A52BFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					E872F3E42C94E5E100A52BFA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = E872F3E02C94E5E100A52BFA /* Build configuration list for PBXProject "Exercise4_Mohammed_FaraazRehanJunaidi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E872F3DC2C94E5E100A52BFA;
+			packageReferences = (
+				E872F3FE2C96428400A52BFA /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = E872F3E62C94E5E100A52BFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E872F3E42C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E872F3E32C94E5E100A52BFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E872F3FD2C963F0F00A52BFA /* hod.mp3 in Resources */,
+				E872F3F02C94E5E300A52BFA /* Preview Assets.xcassets in Resources */,
+				E872F3ED2C94E5E300A52BFA /* Assets.xcassets in Resources */,
+				E872F4042C97505000A52BFA /* fightSound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E872F3E12C94E5E100A52BFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E872F3EB2C94E5E100A52BFA /* ContentView.swift in Sources */,
+				E872F3F92C94E70900A52BFA /* ScoreView.swift in Sources */,
+				E872F3FB2C96375C00A52BFA /* SplashScreenView.swift in Sources */,
+				E872F3F72C94E6FC00A52BFA /* GameView.swift in Sources */,
+				E872F3E92C94E5E100A52BFA /* Exercise4_Mohammed_FaraazRehanJunaidiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E872F3F12C94E5E300A52BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E872F3F22C94E5E300A52BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E872F3F42C94E5E300A52BFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise4_Mohammed_FaraazRehanJunaidi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cpl.Exercise4-Mohammed-FaraazRehanJunaidi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E872F3F52C94E5E300A52BFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Exercise4_Mohammed_FaraazRehanJunaidi/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cpl.Exercise4-Mohammed-FaraazRehanJunaidi";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E872F3E02C94E5E100A52BFA /* Build configuration list for PBXProject "Exercise4_Mohammed_FaraazRehanJunaidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E872F3F12C94E5E300A52BFA /* Debug */,
+				E872F3F22C94E5E300A52BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E872F3F32C94E5E300A52BFA /* Build configuration list for PBXNativeTarget "Exercise4_Mohammed_FaraazRehanJunaidi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E872F3F42C94E5E300A52BFA /* Debug */,
+				E872F3F52C94E5E300A52BFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E872F3FE2C96428400A52BFA /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E872F3FF2C96428400A52BFA /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E872F3FE2C96428400A52BFA /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E872F3DD2C94E5E100A52BFA /* Project object */;
+}
